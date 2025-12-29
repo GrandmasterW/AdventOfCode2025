@@ -25,8 +25,8 @@
            1)))
   (testing "example input day 1 part a"
     (is (= (day/part-a-fn 50 du/sample-a)
-           3)))
+           sample-result-a)))
   (testing "full input day 1 part a"
     (is (= (day/part-a-fn 50 du/data-a)
-           1152))))
+           result-a))))
   
